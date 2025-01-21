@@ -27,7 +27,7 @@ export interface AssetIdV3 extends Enum {
 export interface AssetIdV4 extends MultiLocationV3 {}
 
 /** @name AssetInstance */
-export interface AssetInstance extends AssetInstanceV4 {}
+export interface AssetInstance extends AssetInstanceV3 {}
 
 /** @name AssetInstanceV0 */
 export interface AssetInstanceV0 extends Enum {
@@ -250,7 +250,7 @@ export interface DoubleEncodedCall extends Struct {
 }
 
 /** @name Fungibility */
-export interface Fungibility extends FungibilityV4 {}
+export interface Fungibility extends FungibilityV3 {}
 
 /** @name FungibilityV0 */
 export interface FungibilityV0 extends FungibilityV1 {}
@@ -792,10 +792,10 @@ export interface InteriorMultiLocationV2 extends JunctionsV2 {}
 export interface InteriorMultiLocationV3 extends JunctionsV3 {}
 
 /** @name Junction */
-export interface Junction extends JunctionV4 {}
+export interface Junction extends JunctionV3 {}
 
 /** @name Junctions */
-export interface Junctions extends JunctionsV4 {}
+export interface Junctions extends JunctionsV3 {}
 
 /** @name JunctionsV1 */
 export interface JunctionsV1 extends Enum {
@@ -1083,10 +1083,10 @@ export interface MaybeErrorCodeV3 extends Enum {
 }
 
 /** @name MultiAsset */
-export interface MultiAsset extends MultiAssetV4 {}
+export interface MultiAsset extends MultiAssetV3 {}
 
 /** @name MultiAssetFilter */
-export interface MultiAssetFilter extends MultiAssetFilterV4 {}
+export interface MultiAssetFilter extends MultiAssetFilterV3 {}
 
 /** @name MultiAssetFilterV1 */
 export interface MultiAssetFilterV1 extends Enum {
@@ -1415,7 +1415,7 @@ export interface QueueConfigData extends Struct {
 }
 
 /** @name Response */
-export interface Response extends ResponseV4 {}
+export interface Response extends ResponseV3 {}
 
 /** @name ResponseV0 */
 export interface ResponseV0 extends Enum {
@@ -1595,7 +1595,7 @@ export interface WeightLimitV3 extends Enum {
 }
 
 /** @name WildFungibility */
-export interface WildFungibility extends WildFungibilityV4 {}
+export interface WildFungibility extends WildFungibilityV3 {}
 
 /** @name WildFungibilityV0 */
 export interface WildFungibilityV0 extends WildFungibilityV1 {}
@@ -1621,7 +1621,7 @@ export interface WildFungibilityV3 extends WildFungibilityV2 {}
 export interface WildFungibilityV4 extends WildFungibilityV2 {}
 
 /** @name WildMultiAsset */
-export interface WildMultiAsset extends WildMultiAssetV4 {}
+export interface WildMultiAsset extends WildMultiAssetV3 {}
 
 /** @name WildMultiAssetV1 */
 export interface WildMultiAssetV1 extends Enum {
@@ -1684,7 +1684,7 @@ export interface WildMultiAssetV4 extends Enum {
 }
 
 /** @name Xcm */
-export interface Xcm extends XcmV4 {}
+export interface Xcm extends XcmV3 {}
 
 /** @name XcmAssetId */
 export interface XcmAssetId extends Enum {
@@ -1696,7 +1696,7 @@ export interface XcmAssetId extends Enum {
 }
 
 /** @name XcmError */
-export interface XcmError extends XcmErrorV4 {}
+export interface XcmError extends XcmErrorV3 {}
 
 /** @name XcmErrorV0 */
 export interface XcmErrorV0 extends Enum {

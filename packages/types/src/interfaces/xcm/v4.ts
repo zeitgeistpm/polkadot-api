@@ -7,7 +7,7 @@
 import type { DefinitionsTypes } from '../../types/index.js';
 
 export const v4: DefinitionsTypes = {
-  AssetIdV4: 'MultiLocationV4',
+  AssetIdV4: 'MultiLocationV3',
   AssetInstanceV4: {
     _enum: {
       Undefined: 'Null',

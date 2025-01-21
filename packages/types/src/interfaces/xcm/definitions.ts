@@ -14,7 +14,7 @@ import { v2 } from './v2.js';
 import { v3 } from './v3.js';
 import { v4 } from './v4.js';
 
-const XCM_LATEST = 'V4';
+const XCM_LATEST = 'V3';
 
 const xcm = {
   XcmOrigin: {
