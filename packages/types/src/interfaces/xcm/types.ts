@@ -24,7 +24,7 @@ export interface AssetIdV3 extends Enum {
 }
 
 /** @name AssetIdV4 */
-export interface AssetIdV4 extends MultiLocationV4 {}
+export interface AssetIdV4 extends MultiLocationV3 {}
 
 /** @name AssetInstance */
 export interface AssetInstance extends AssetInstanceV4 {}
@@ -1201,7 +1201,7 @@ export interface MultiAssetV4 extends Struct {
 }
 
 /** @name MultiLocation */
-export interface MultiLocation extends MultiLocationV4 {}
+export interface MultiLocation extends MultiLocationV3 {}
 
 /** @name MultiLocationV0 */
 export interface MultiLocationV0 extends Enum {
