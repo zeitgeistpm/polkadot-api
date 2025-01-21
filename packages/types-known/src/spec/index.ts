@@ -14,6 +14,7 @@ import { versioned as statemine } from './statemine.js';
 import { versioned as statemint } from './statemint.js';
 import { versioned as westend } from './westend.js';
 import { versioned as westmint } from './westmint.js';
+import { versioned as zeitgeist } from './zeitgeist.js';
 
 // Type overrides for specific spec types & versions as given in runtimeVersion
 export const typesSpec: Record<string, OverrideVersionedType[]> = {
@@ -27,5 +28,6 @@ export const typesSpec: Record<string, OverrideVersionedType[]> = {
   statemine,
   statemint,
   westend,
-  westmint
+  westmint,
+  zeitgeist,
 };
