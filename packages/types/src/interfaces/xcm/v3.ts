@@ -381,6 +381,20 @@ export const v3: DefinitionsTypes = {
       }
     }
   },
+  OutcomeV4: {
+    _enum: {
+      Complete: {
+        used: 'WeightV2'
+      },
+      Incomplete: {
+        used: 'WeightV2',
+        error: 'XcmErrorV3'
+      },
+      Error: {
+        error: 'XcmErrorV3'
+      }
+    }
+  },
   VersionV3: 'u32',
   XcmV3: 'Vec<InstructionV3>'
 };
