@@ -12,6 +12,6 @@ export default {
   rpc: {},
   runtime,
   types: {
-    TAssetConversion: 'Option<MultiLocationV3>'
+    TAssetConversion: 'Option<MultiLocation>'
   }
 } as Definitions;
