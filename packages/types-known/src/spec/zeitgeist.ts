@@ -9,7 +9,7 @@ export const versioned: OverrideVersionedType[] = [
   {
     minmax: [0, undefined],
     types: {
-      TAssetConversion: 'Option<MultiLocationV3>'
+      'Option<TAssetConversion>': 'TAssetConversion'
     }
   }
 ];
